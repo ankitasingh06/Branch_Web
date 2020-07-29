@@ -12,15 +12,16 @@ Here, we have two branches ,one is master branch and one is dev1 branch.
 I have used simpe html webpage(a1.html) is to be deployed,And at the same html page we can take fully working webpage as well which gonna deployed  automatically with the Jenkins -----> jobs.
 
 Some basic idea of Jenkins jobs======>>>>
-JOB#1
+
+•JOB#1
 If Developer push to dev1 branch then Jenkins will fetch from dev1 and deploy on Testing environment.
 
-JOB#2
+•JOB#2
 If Developer push to master branch then Jenkins will fetch from master and deploy on Production environment.
  Note :- 
 both Production environment and Testing environment are on different docker containers.
 
-JOB#3
+•JOB#3
 Manually the QA team will check (test) for the website running in dev-docker environment. If it is running fine then Jenkins will merge the dev1 branch to master branch and trigger #job 2
 
 With the help of git/github + Jenkins + docker containers, This project is completed.
