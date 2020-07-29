@@ -26,6 +26,6 @@ Manually the QA team will check (test) for the website running in dev-docker env
 
 With the help of git/github + Jenkins + docker containers, This project is completed.
 
-Here is my linkedin Article link = https://www.linkedin.com/feed/update/urn:li:activity:6664215386822709249/
+Here is my linkedin Article link = https://www.linkedin.com/pulse/automation-gitgithub-docker-jenkins-ankita-singh/
 
 Go through this link for proper understanding.
